@@ -156,7 +156,7 @@ raftstore:
   # consistency-check-interval: 0
 
   # Use delete range to drop a large number of continuous keys.
-  # use-delete-range: true
+  # use-delete-range: false
 
 coprocessor:
   # When it is true, it will try to split a region with table prefix if
